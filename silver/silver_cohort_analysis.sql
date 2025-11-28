@@ -1,4 +1,4 @@
-create or replace table workspace.bigquery_db_cohort_db.silver_cohort_analysis as
+CREATE OR REPLACE TABLE workspace.bigquery_db_cohort_db.silver_cohort_analysis AS
 
 -- Step 1: Calculate the First Purchase Date
 WITH first_purchases AS (
