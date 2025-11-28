@@ -2,7 +2,7 @@
 -- Write a query that calculates, for each customer (using the raw ecom_orders table), the first purchase date and then (if available) the date of their second order. 
 -- Then, group customers into cohorts by truncating the first purchase date by month and compute the percentage of customers who placed a second order within 1, 2, and 3 months.*/
 
-create or replace table workspace.bigquery_db_cohort_db.gold_retention_rate_by_cohort as
+CREATE OR REPLACE TABLE workspace.bigquery_db_cohort_db.gold_retention_rate_by_cohort AS
 
 -- 1) Compute the month difference and cohort month
 WITH customer_differences AS (
