@@ -250,7 +250,6 @@ All insights should therefore be interpreted as **exploratory and directional**.
   - [dashboard_cohort_analysis_update.lvdash.json](dashboard/dashboard_cohort_analysis_update.lvdash.json)
 
 - **slides/**
-  - [elt_databricks_project_cohort_analysis.pptx](slides/elt_databricks_project_cohort_analysis.pptx)
   - [elt_databricks_project_cohort_analysis.pdf](slides/elt_databricks_project_cohort_analysis.pdf)
 
 ---
